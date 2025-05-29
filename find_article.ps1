@@ -27,7 +27,7 @@ function Wyszukaj-Artykuly-NewsData {
             } else {
                 Write-Output "`nWyniki wyszukiwania dla tematu: '$Temat'`n"
                 foreach ($article in $articles) {
-                    Write-Output "$($article.title)"
+                    Write-Output "$($article.title)"dsd 
                     Write-Output " Data: $($article.pubDate)"
                     Write-Output " Link: $($article.link)`n"
                 }
