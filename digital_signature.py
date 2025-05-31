@@ -10,7 +10,7 @@ public_key = private_key.public_key()
 
 #Zmienne pomocnicze
 
-# Zapisz klucze do plików (opcjonalnie)
+# Zapisanie kluczy do plików
 with open("private_key.pem", "wb") as file:
     file.write(private_key.private_bytes(
         encoding=serialization.Encoding.PEM,
