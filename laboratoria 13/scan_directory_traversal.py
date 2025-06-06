@@ -64,7 +64,7 @@ def scan_traversal(session):
             print("Payload:", payload)
             break
 
-#wywołanie funckji
+# Wywołanie funckji
 sesja = logowanie()
 security_lvl(sesja)
 scan_traversal(sesja)
